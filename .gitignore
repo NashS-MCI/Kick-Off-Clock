@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tests / Tools
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment / IDE
+.env
+.idea/
+.DS_Store
+Thumbs.db
+
+# Geheimnisse (WLAN-Passwort etc.)
+device/config.py
+
+# MicroPython-Firmware
+*.bin

@@ -1,0 +1,4 @@
+# PC-Tools (laufen in der .venv, NICHT auf dem ESP)
+mpremote                                          # Dateien kopieren, REPL, Code auf dem ESP ausführen
+esptool                                           # MicroPython-Firmware flashen
+micropython-esp32-esp32_generic_s3-stubs~=1.29.0  # Autovervollständigung für machine, network, ... (Version = Firmware-Version)
